@@ -16,7 +16,7 @@ function enter(maindata) {
             <div class='swiper-stars'></div>
             <p class='swiper-comment-description'>${pdata.description}</p>
             <div class='person-data'>
-                <img /src='/src/imgs/icons/person.svg' style='height: 100%;' alt='Person'>
+                <img /src='./imgs/icons/person.svg' style='height: 100%;' alt='Person'>
                 <div>
                     <p class='swiper-name'>${pdata.name}</p>
                     <p class='swiper-role'>${pdata.role}</p>
@@ -35,7 +35,7 @@ function ad(maindata) {
     starsContainers.forEach((el, index) => {
         let stars = '';
         for (let i = 0; i < maindata[index].stars; i++) {
-            stars += `<img /src='/src/imgs/icons/star.svg' alt='Star' />`;
+            stars += `<img /src='./imgs/icons/star.svg' alt='Star' />`;
         }
         el.innerHTML = stars;
     });

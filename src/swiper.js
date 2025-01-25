@@ -1,6 +1,6 @@
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
-import '/src/swiper.css';
+import './swiper.css';
 const swiper = new Swiper('.swiper', {
 
     direction: 'horizontal',
