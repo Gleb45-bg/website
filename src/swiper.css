@@ -1,0 +1,42 @@
+.swiper-slide{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    min-height: 233px;
+    
+}
+
+.swiper{
+    max-width: 768px;
+    margin: 0 auto;
+
+}
+
+.swiper-comment-description{
+    text-align: center;
+}
+
+.person-data{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.swiper-stars{
+    display: flex;
+    gap: 5px;
+}
+
+.prev-button, .next-button{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+.swiper-control{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}

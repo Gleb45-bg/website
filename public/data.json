@@ -1,0 +1,19 @@
+{
+    "data" : [
+        {
+            "stars" : 5,
+            "description" : "The team transformed our outdated office into a modern workspace that inspires creativity. Their attention to detail and professionalism exceeded our expectations!",
+            "company" : "/src/imgs/icons/webflow.svg",
+            "name":"John Doe",
+            "role":"Project Manager, TechCorp"
+        },
+        {
+            "stars" : 3,
+            "description" : "lorem ipsum dolor sit amet consectetur adipiscing elit. nobis official deleniti, porro reprehenderit magnam dignissimos!",
+            "company" : "/src/imgs/icons/webflow.svg",
+            "name":"Mr. C",
+            "role":"Some info"
+        }
+        
+    ]
+}

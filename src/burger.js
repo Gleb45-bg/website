@@ -7,9 +7,11 @@ const burger = document.querySelector(".burgerdropdown");
         active = !active
         if (active){
             burger.classList.toggle('active')
+            button.classList.toggle('active')
         }
         if (!active){
             burger.classList.remove('active')
+            button.classList.remove('active')
         }
     
         

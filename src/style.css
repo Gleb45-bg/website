@@ -102,7 +102,7 @@ header{
 }
 
 .home-section{
-  background: url(./imgs/backgrounds/home-background.jpg);
+  background: url(/src/imgs/backgrounds/home-background.jpg);
   background-size: cover;
   background-position: center;
   padding: 150px 0;
@@ -170,6 +170,8 @@ header{
   gap: 24px;
 }
 
+
+
 .your-vision-text-content p{
   font-size:clamp(16px, 1.25vw, 18px);
   font-weight: var(--base-font-weight);
@@ -210,7 +212,11 @@ header{
   align-items: center;
   gap: 62px;
   flex-wrap: wrap;
+  box-shadow: 8px 8px 12px 0px;
+
 }
+
+
 
 .expertrenovation-left-block-img{
   width: 320px;
@@ -233,6 +239,8 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 8px 8px 12px 0px;
+
   
 }
 
@@ -611,7 +619,7 @@ hr{
 /*--------------------------------------dropdown*/
 .dropdown-content{
   background-color: white;
-  
+  box-shadow: 1px 0px 12px 3px;
   padding: 10px;
   position: absolute;
   display: none;
@@ -657,7 +665,7 @@ hr{
   transform: translateY(-5000px);
   transition: 0.5s all ease;
   z-index: 4;
-  width: calc(100% - 48px);
+  width: calc(100% - 40px);
   padding: 70px 20px;
   height: 100vh;
 
@@ -698,6 +706,73 @@ hr{
   width: calc(100% - 48px);
   padding: 12px 24px;
 }
+
+.burger-long-line{
+  width: 28px;
+  height: 2px;
+  background: var(--base-black-color);
+  display: block;
+  border-radius: 30px;
+  transition: 0.5s all ease;
+}
+
+.burger-medium-line{
+  width: 28px;
+  height: 2px;
+  background: var(--base-black-color);
+  display: block;
+  border-radius: 30px;
+  transition: 0.5s all ease;
+}
+
+.burger-menu.active .burger-medium-line{
+  display: none;
+}
+
+.burger-menu.active .burger-long-line:nth-child(1){
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.burger-menu.active .burger-long-line:nth-child(3){
+  position: absolute;
+  transform: rotate(-45deg);
+
+}
+
+.burger-menu.active{
+  gap: 0px;
+  position: relative;
+}
+
+.person-data-line{
+  width: 1px;
+  height: 100%;
+  background-color: var(--base-black-color);
+  height: 50px;
+
+}
+
+.swiper-comment-description{
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.swiper-name{
+  font-weight: 600;
+  
+}
+
+.comments{
+  padding: 112px 0;
+}
+
+.comments-content{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
 
 @media(max-width: 1302px){
   .expertrenovation-content{
@@ -813,7 +888,10 @@ hr{
   }
 
   .burger-menu{
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: flex-end;
   }
 
   .header-list{
@@ -861,7 +939,7 @@ hr{
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-              <img src="./imgs/icons/Stars.svg">
+              <img src="/src/imgs/icons/Stars.svg">
                 <p class="swiper-text-content">"The team transformed our outdated office into a modern workspace that inspires creativity. Their attention to detail and professionalism exceeded our expectations!"</p>
               <div class="name-section">
                 <h4>John Doe</h4>
@@ -870,7 +948,7 @@ hr{
             </div>
           </div>
           <div class="swiper-slide">
-              <img src="./imgs/icons/Stars.svg">
+              <img src="/src/imgs/icons/Stars.svg">
                 <p class="swiper-text-content">"The team transformed our outdated office into a modern workspace that inspires creativity. Their attention to detail and professionalism exceeded our expectations!"</p>
               <div class="name-section">
                 <h4>John Doe</h4>
@@ -880,7 +958,7 @@ hr{
             </div>
           </div>
           <div class="swiper-slide">
-            <img src="./imgs/icons/Stars.svg">
+            <img src="/src/imgs/icons/Stars.svg">
               <p class="swiper-text-content">"The team transformed our outdated office into a modern workspace that inspires creativity. Their attention to detail and professionalism exceeded our expectations!"</p>
             <div class="name-section">
               <h4>John Doe</h4>
@@ -891,8 +969,8 @@ hr{
         </div>
         </div>
         <div class="swiper-navigation">
-          <div class="swiper-button-prev"><img src="./imgs/icons/swiperarow.svg"></div>
-          <div class="swiper-button-next"><img src="./imgs/icons/swiperarow.svg" style="transform: rotate(180deg);"></div>
+          <div class="swiper-button-prev"><img src="/src/imgs/icons/swiperarow.svg"></div>
+          <div class="swiper-button-next"><img src="/src/imgs/icons/swiperarow.svg" style="transform: rotate(180deg);"></div>
         </div>
-        <script src="./swiper.js" type="module"></script>
+        <script src="/swiper.js" type="module"></script>
       </section>*/
