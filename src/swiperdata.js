@@ -1,6 +1,6 @@
 async function getdata() {
     try {
-        let response = await fetch('/data.json');
+        let response = await fetch('..//public/data.json');
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         let data = await response.json();
         enter(data.data);
