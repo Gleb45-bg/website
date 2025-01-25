@@ -939,7 +939,7 @@ hr{
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-              <img src="/src/imgs/icons/Stars.svg">
+              <img /src="/src/imgs/icons/Stars.svg">
                 <p class="swiper-text-content">"The team transformed our outdated office into a modern workspace that inspires creativity. Their attention to detail and professionalism exceeded our expectations!"</p>
               <div class="name-section">
                 <h4>John Doe</h4>
@@ -948,7 +948,7 @@ hr{
             </div>
           </div>
           <div class="swiper-slide">
-              <img src="/src/imgs/icons/Stars.svg">
+              <img /src="/src/imgs/icons/Stars.svg">
                 <p class="swiper-text-content">"The team transformed our outdated office into a modern workspace that inspires creativity. Their attention to detail and professionalism exceeded our expectations!"</p>
               <div class="name-section">
                 <h4>John Doe</h4>
@@ -958,7 +958,7 @@ hr{
             </div>
           </div>
           <div class="swiper-slide">
-            <img src="/src/imgs/icons/Stars.svg">
+            <img /src="/src/imgs/icons/Stars.svg">
               <p class="swiper-text-content">"The team transformed our outdated office into a modern workspace that inspires creativity. Their attention to detail and professionalism exceeded our expectations!"</p>
             <div class="name-section">
               <h4>John Doe</h4>
@@ -969,8 +969,8 @@ hr{
         </div>
         </div>
         <div class="swiper-navigation">
-          <div class="swiper-button-prev"><img src="/src/imgs/icons/swiperarow.svg"></div>
-          <div class="swiper-button-next"><img src="/src/imgs/icons/swiperarow.svg" style="transform: rotate(180deg);"></div>
+          <div class="swiper-button-prev"><img /src="/src/imgs/icons/swiperarow.svg"></div>
+          <div class="swiper-button-next"><img /src="/src/imgs/icons/swiperarow.svg" style="transform: rotate(180deg);"></div>
         </div>
-        <script src="/swiper.js" type="module"></script>
+        <script /src="/swiper.js" type="module"></script>
       </section>*/
